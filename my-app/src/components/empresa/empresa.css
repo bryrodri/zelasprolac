@@ -1,0 +1,37 @@
+
+.empresa-component{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.empresa-header{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.empresa-headerText{
+    width: 35%;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    background-color: #293591;
+}
+
+.empresa-headerSecondText{
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: right;
+    font-size: 20px;
+    align-self: flex-end;
+    width: 50%;
+    color: #293591;
+}
