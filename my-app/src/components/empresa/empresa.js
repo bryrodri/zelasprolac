@@ -21,6 +21,52 @@ const Empresa = ({idioma}) => {
                     <p>{empresaText(idioma).headerText}</p>
                 </div>
             </div>
+
+
+            <div className="empresa-contenido">
+                <div className="empresa-contenidoImagenes">
+                    <img src={process.env.PUBLIC_URL + '/img/empresa1.jpg'}></img>
+                    <img src={process.env.PUBLIC_URL + '/img/empresa1.jpg'}></img>
+                </div>
+
+                <div className="empresa-texto">
+
+                    <div className="empresa-sub">
+                        <h3>{empresaText(idioma).mision}</h3>
+                        <p>{empresaText(idioma).misionText}</p>
+                    </div>
+                    <div className="empresa-sub" >
+                        <h3>{empresaText(idioma).vision}</h3>
+                        <p>{empresaText(idioma).visionText}</p>
+                    </div>
+
+                    <div className="empresa-contenidoSpecial">
+                        <h2>{empresaText(idioma).subTitle}</h2>
+                    </div>
+
+                    <div className="empresa-subSecond">
+                        <h3>•{empresaText(idioma).responsabilidad}</h3>
+                        <p>{empresaText(idioma).responsabilidadText}</p>
+                    </div>
+ 
+                    <div className="empresa-subSecond">
+                    <h3>•{empresaText(idioma).fiabilidad}</h3>
+                        <p>{empresaText(idioma).fiabilidadText}</p>
+                    </div>
+
+                    <div className="empresa-subSecond">
+                    <h3>•{empresaText(idioma).excelencia}</h3>
+                        <p>{empresaText(idioma).excelenciaText}</p>
+                    </div>
+
+                    <div className="empresa-subSecond">
+                    <h3>•{empresaText(idioma).lealtad}</h3>
+                        <p>{empresaText(idioma).lealtadText}</p>
+                    </div>
+
+                </div>
+
+            </div>
             
         </div>
     )

@@ -17,7 +17,7 @@ const NavBar = ({idioma}) => {
         <div className="navbar" >
 
             <div className="logo--navbar">
-                <img src={process.env.PUBLIC_URL + '/img/logo.png'}></img>
+                <img src={process.env.PUBLIC_URL + '/img/logo.png'} alt="Logo de Zelasprolac"></img>
             </div>
 
             <div className="links-navBar">

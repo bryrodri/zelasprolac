@@ -35,3 +35,78 @@
     width: 50%;
     color: #293591;
 }
+
+.empresa-contenido{
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #293591;
+}
+
+.empresa-contenidoImagenes{
+    width: 30%;
+}
+
+.empresa-texto{
+    width: 65%;
+}
+
+.empresa-sub{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.empresa-sub h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.empresa-sub p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.empresa-subSecond{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.empresa-subSecond h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.empresa-subSecond p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15%;
+    
+
+}
+
+
+
+.empresa-contenidoImagenes img{
+    width: 100%;
+}
+
+.empresa-contenidoSpecial{
+    margin-top: 20px;
+    background-color: #293591;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+
+

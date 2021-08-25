@@ -14,15 +14,15 @@ const Slider = ({idioma}) => {
         <div className="slider-container" id="inicio">
 
             <div className="slider-img" style={{top:0, left:imgSelected===1?"0%":"-100%"}}>
-                <img src={process.env.PUBLIC_URL + '/img/taladro.jpg'}></img>
+                <img src={process.env.PUBLIC_URL + '/img/taladro.jpg'} alt="Imagen de slider"></img>
             </div>
 
             <div className="slider-img" style={{top:0, left:imgSelected===1?"100%": imgSelected===2?"0%":"-100%"}}>
-                <img src={process.env.PUBLIC_URL + '/img/barco.jpg'}></img>
+                <img src={process.env.PUBLIC_URL + '/img/barco.jpg'} alt="Imagen de slider"></img>
             </div>
 
             <div className="slider-img" style={{top:0, left:imgSelected===3?"0%":"100%"}}>
-                <img src={process.env.PUBLIC_URL + '/img/taladro.jpg'}></img>
+                <img src={process.env.PUBLIC_URL + '/img/taladro.jpg'} alt="Imagen de slider"></img>
             </div>
 
             <div className="text-slider" style={{top:"10px", left:"4%", opacity:imgSelected===1?"1":"0", width:"28%"}}>

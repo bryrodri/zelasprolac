@@ -4,6 +4,8 @@ import './App.css';
 import NavBar from './components/navBar/navBar'
 import Slider from './components/slider/slider'
 import Empresa from './components/empresa/empresa'
+import Servicios from './components/servicios/servicios'
+import Contacto from './components/contacto/contacto'
 
 function App() {
   return (
@@ -11,11 +13,8 @@ function App() {
       <NavBar></NavBar>
       <Slider></Slider>
       <Empresa></Empresa>
-      <Empresa></Empresa>
-      <Empresa></Empresa>
-      <Empresa></Empresa>
-      <Empresa></Empresa>
-      
+      <Servicios></Servicios>
+      <Contacto></Contacto>
     </>
   );
 }
