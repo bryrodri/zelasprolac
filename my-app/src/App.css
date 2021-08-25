@@ -1,5 +1,66 @@
 
 
 .h2-Style{
-    font-size: 26px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.pageSection{
+    width: 100%;
+}
+
+@media (min-width:768px){
+    .h2-Style{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1024px){
+    .h2-Style{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+    
+    h3{
+        font-size: 22px;
+    }
+}
+
+@media (min-width:1440px){
+    .h2-Style{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+}
+
+@media (min-width:1920px){
+    .pageSection{
+        margin: 0 auto;
+        width: 1440px;
+    }
 }

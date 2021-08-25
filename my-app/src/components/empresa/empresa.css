@@ -1,6 +1,6 @@
 
 .empresa-component{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,13 +17,18 @@
 
 
 
-.empresa-headerText{
-    width: 35%;
+.empresa-headerText h2 {
+    
     color: #fff;
     text-align: center;
-    font-size: 26px;
     background-color: #293591;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 15px;
 }
+
+
+
 
 .empresa-headerSecondText{
     box-sizing: border-box;
@@ -32,7 +37,7 @@
     text-align: right;
     font-size: 20px;
     align-self: flex-end;
-    width: 50%;
+    width: 70%;
     color: #293591;
 }
 
@@ -56,24 +61,7 @@
     width: 65%;
 }
 
-.empresa-sub{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-bottom: 20px;
-}
 
-.empresa-sub h3{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.empresa-sub p{
-    font-weight: bold;
-    font-size: 18px;
-    margin-left: 20px;
-    width: 80%;
-}
 
 .empresa-subSecond{
     margin-top: 20px;
@@ -83,13 +71,13 @@
 }
 
 .empresa-subSecond h3{
-    font-size: 25px;
+    
     font-weight: bold;
 }
 
 .empresa-subSecond p{
     font-weight: bold;
-    font-size: 18px;
+    
     margin-left: 15%;
     
 
@@ -107,6 +95,86 @@
     color: #fff;
     font-size: 26px;
     text-align: center;
+}
+
+
+.empresa-componentContenido{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-top: 20px;
+
+    color: #293591;
+}
+
+.empresa-contenidoItem{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+}
+
+.empresa-sub{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.empresa-sub h3{
+    
+    font-weight: bold;
+}
+
+.empresa-sub p{
+    font-weight: bold;
+    
+    margin-left: 20px;
+    width: 100%;
+}
+
+.empresa-contenidoItem img{
+    width: 50%;
+    align-self: center;
+    
+}
+
+.empresa-ciText{
+    width: 100%;
+}
+
+@media (min-width:768px){
+
+    .empresa-contenidoItem img{
+        width: 30%;
+    }
+    
+    .empresa-ciText{
+        width: 65%;
+    }
+    .empresa-contenidoItem{
+
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .empresa-sub{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .empresa-sub p{
+        width: 80%;
+    }
+
+    .empresa-ciText{
+        align-self: center;
+    }
 }
 
 

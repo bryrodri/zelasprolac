@@ -14,28 +14,51 @@
 
 .contacto-titles{
     color: #293591;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .contacto-subContainer{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
 .contacto-item{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .contacto-item > span{
     color: #293591;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .contactoItemHeader{
     margin-bottom: 10px;
+}
+
+
+@media (min-width:768px){
+    .contacto-titles{
+        color: #293591;
+        font-size: 22px;
+    }
+
+    .contacto-item > span{
+        color: #293591;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .contacto-subContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
 }

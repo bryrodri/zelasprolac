@@ -11,10 +11,14 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <Slider></Slider>
-      <Empresa></Empresa>
-      <Servicios></Servicios>
-      <Contacto></Contacto>
+
+      <div className="pageSection">
+        <Slider></Slider>
+        <Empresa></Empresa>
+        <Servicios></Servicios>
+        <Contacto></Contacto>
+      </div>
+
     </>
   );
 }

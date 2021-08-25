@@ -9,7 +9,7 @@ import {contacto as contactoText} from '../../languageFunctions/contacto'
 
 const Contacto = ({idioma}) => {
     return (
-        <div className="contacto-contenedor">
+        <div className="contacto-contenedor" id="contacto">
 
             <div className="contacto-header">
                 <span className="contacto-titles">{contactoText(idioma).contactanos}</span>
