@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zelasprolac/static/css/main.ccdf3dd6.chunk.css",
-    "main.js": "/zelasprolac/static/js/main.5eed3893.chunk.js",
-    "main.js.map": "/zelasprolac/static/js/main.5eed3893.chunk.js.map",
+    "main.js": "/zelasprolac/static/js/main.ae190dfc.chunk.js",
+    "main.js.map": "/zelasprolac/static/js/main.ae190dfc.chunk.js.map",
     "runtime-main.js": "/zelasprolac/static/js/runtime-main.51491feb.js",
     "runtime-main.js.map": "/zelasprolac/static/js/runtime-main.51491feb.js.map",
     "static/js/2.645162af.chunk.js": "/zelasprolac/static/js/2.645162af.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.51491feb.js",
     "static/js/2.645162af.chunk.js",
     "static/css/main.ccdf3dd6.chunk.css",
-    "static/js/main.5eed3893.chunk.js"
+    "static/js/main.ae190dfc.chunk.js"
   ]
 }
