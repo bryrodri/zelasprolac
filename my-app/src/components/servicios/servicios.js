@@ -18,7 +18,7 @@ const Servicios = ({idioma}) => {
                     </div>
                 
                 <div className="servicio-itemImg">
-                    <img src={process.env.PUBLIC_URL + '/img/servicio1.jpg'}></img>
+                    <img src={process.env.PUBLIC_URL + '/img/servicio2.jpg'}></img>
                 </div>
 
                 <div className="servicio-itemText">
@@ -38,7 +38,7 @@ const Servicios = ({idioma}) => {
                     </div>
 
                 <div className="servicio-itemImg">
-                    <img src={process.env.PUBLIC_URL + '/img/servicio2.jpg'}></img>
+                    <img src={process.env.PUBLIC_URL + '/img/servicio1.jpg'}></img>
                 </div>
 
                 <div className="servicio-itemText">

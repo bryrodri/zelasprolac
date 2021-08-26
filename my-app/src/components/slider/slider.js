@@ -22,7 +22,7 @@ const Slider = ({idioma}) => {
             </div>
 
             <div className="slider-img" style={{top:0, left:imgSelected===3?"0%":"100%"}}>
-                <img src={process.env.PUBLIC_URL + '/img/taladro.jpg'} alt="Imagen de slider"></img>
+                <img src={process.env.PUBLIC_URL + '/img/envio.jpg'} alt="Imagen de slider"></img>
             </div>
 
             <div className="text-slider" style={{top:"10px", left:"4%", opacity:imgSelected===1?"1":"0", width:"28%"}}>
@@ -40,7 +40,7 @@ const Slider = ({idioma}) => {
             <div className="sliderSelector">
                 
                 <div className="sliderItem" onClick={()=>{setImgSelected(1)}}>
-                    <span>1</span>
+                    <span >1</span>
                     <div></div>
                 </div>
 

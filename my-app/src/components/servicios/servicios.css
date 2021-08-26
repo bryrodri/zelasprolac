@@ -43,9 +43,13 @@
     padding: 10px 15px;
 }
 
+.servicio-itemHeader h2{
+    margin-top: 5px;
+}
+
 .servicio-itemText p{
     color: #293591;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
     margin-left: 20px;
 
@@ -74,7 +78,7 @@
 
     .servicio-itemText p{
         color: #293591;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 18px;
         margin-left: 20px;
     

@@ -1,13 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
 
+@font-face {
+    font-family: "Aristotelica";
+    src: local("Aristotelica"),
+     url("./fonts/aristotelica/Aristotelica-Regular.ttf") format("truetype");
+    font-weight: normal;
+    }
 
+    @font-face {
+        font-family: "coolvetica";
+        src: local("coolvetica"),
+         url("./fonts/coolvetica/coolvetica.ttf") format("truetype");
+        font-weight: normal;
+        }
+    
 
 
 *{
-    font-family: 'Spectral', serif;
+    font-family: 'coolvetica', 'Spectral', serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-weight: normal;
 }
 
 .App{

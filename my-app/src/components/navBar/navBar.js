@@ -1,8 +1,11 @@
 import React, { useState, useEffect} from 'react'
 import { connect } from "react-redux";
 
+import {actionChangeLenguageMode} from '../../actions'
+
 //lenguaje
 import {navbar as navBarText} from '../../languageFunctions/navbar'
+import Flags from 'country-flag-icons/react/3x2'
 
 //estilos
 import './navBar.css'
@@ -12,11 +15,11 @@ import './navBar.css'
 import Scroll from 'react-scroll'
 const ScrollLink = Scroll.ScrollLink
 
-const NavBar = ({idioma}) => {
+const NavBar = ({idioma, actionChangeLenguageMode}) => {
     const [stateSide,setStateSide] = useState(false);
     const [wt,setWT] = useState(window.innerWidth);
 
-
+   
     useEffect(()=>{
 
         const updateWindowDimensions=()=>{
@@ -58,7 +61,10 @@ const NavBar = ({idioma}) => {
 
             <div className="links-navBar">
                 
+             
                 
+            
+            
                 
                 <span onClick={()=>{redirect("inicio")}}>{navBarText(idioma).inicio}</span>
 
@@ -68,6 +74,11 @@ const NavBar = ({idioma}) => {
                 
 
                 <span onClick={()=>{redirect("contacto")}}>{navBarText(idioma).contacto}</span>
+
+                {idioma==="en" ?
+                    <Flags.US onClick={()=>{actionChangeLenguageMode()}} title="United States" className="flagsL"/>
+                :
+                    <Flags.ES onClick={()=>{actionChangeLenguageMode()}} title="United States" className="flagsL"/>}
                 
                 <div className="navBox">
                     <svg onClick={()=>{setStateSide(!stateSide)}} fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="35px" height="35px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
@@ -105,4 +116,8 @@ const mapStateToProps = (state) => ({
     
   });
 
-export default connect(mapStateToProps, null)(NavBar)
+  const mapDispatchToProps = {
+    actionChangeLenguageMode
+  };
+
+export default connect(mapStateToProps, mapDispatchToProps)(NavBar)

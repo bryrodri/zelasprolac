@@ -60,6 +60,14 @@
     transition: opacity 1s ease-in-out;
 }
 
+.text-slider span{
+    
+
+    font-weight: bold;
+}
+
+
+
 @media (min-width:768px){
     .slider-container{
         height: 300px;

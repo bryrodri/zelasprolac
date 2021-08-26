@@ -5,6 +5,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+//fuente
+import './fonts/aristotelica/Aristotelica-Regular.ttf'
+import './fonts/coolvetica/coolvetica.ttf'
+
 //redux
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";

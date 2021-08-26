@@ -34,7 +34,7 @@
 
 .contacto-item > span{
     color: #293591;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
 }
 
@@ -51,7 +51,7 @@
 
     .contacto-item > span{
         color: #293591;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 20px;
     }
 

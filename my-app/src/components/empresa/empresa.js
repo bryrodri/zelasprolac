@@ -41,7 +41,7 @@ const Empresa = ({idioma}) => {
                 </div>
 
                 <div className="empresa-contenidoItem">
-                    <img src={process.env.PUBLIC_URL + '/img/empresa1.jpg'}></img>
+                    <img src={process.env.PUBLIC_URL + '/img/empresa2.jpg'}></img>
 
                     <div className="empresa-ciText">
                         <div className="empresa-contenidoSpecial">
