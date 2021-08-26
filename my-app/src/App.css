@@ -14,6 +14,7 @@ h3{
 
 .pageSection{
     width: 100%;
+    overflow-x: hidden;
 }
 
 @media (min-width:768px){
