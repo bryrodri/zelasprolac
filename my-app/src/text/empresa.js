@@ -8,7 +8,7 @@ export const empresa={
         visionText:"Ser líderes a nivel internacional en el ámbito de desarrollo de obras náuticas y emportación de alimentos fortaleciendo nuestras alianzas comerciales que aseguran económico y sostenibilidad en el mercado. Mantener la generación de un mayor valor un constate crecimiento logístico y tecnológico que garantice altos niveles de competitividad. Ser reconocidos por la calidad de nuestros servicios, integridad, honestidad y respeto a nuestros clientes.",
         subTitle:"VALORES DE NUESTRA EMPRESA",
         responsabilidad:"RESPONSABILIDAD",
-        responsabilidadText:"Nos comprometemos a dar respuesta Rápida y confiable a las exigencias de nuestros clientes",
+        responsabilidadText:"Nos comprometemos a dar respuesta Rápida y confiable a las exigencias de nuestros clientes.",
         fiabilidad:"FIABILIDAD",
         fiabilidadText:"Nuestro equipo humano está compuesto por integrantes que acumulan conocimientos y experiencias que, nos posicionan como una empresa líder en el área.",
         excelencia:"EXCELENCIA",
