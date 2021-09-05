@@ -13,6 +13,8 @@ import './navBar.css'
 
 //scroll
 import Scroll from 'react-scroll'
+
+import Fade from 'react-reveal/Fade';
 const ScrollLink = Scroll.ScrollLink
 
 const NavBar = ({idioma, actionChangeLenguageMode}) => {
@@ -55,34 +57,45 @@ const NavBar = ({idioma, actionChangeLenguageMode}) => {
         <>
         <div className="navbar" >
 
+            
             <div className="logo--navbar">
+                <Fade left duration={1500}>
                 <img src={process.env.PUBLIC_URL + '/img/logo.png'} alt="Logo de Zelasprolac"></img>
-            </div>
+                </Fade>
 
+            </div>
+            
             <div className="links-navBar">
                 
              
                 
             
             
-                
+                <Fade  duration={3000}>
                 <span onClick={()=>{redirect("inicio")}}>{navBarText(idioma).inicio}</span>
+                </Fade>
 
-
+                <Fade  duration={3000}>
                 <span onClick={()=>{redirect("empresa")}}>{navBarText(idioma).empresa}</span>
+                </Fade>
+
+                <Fade  duration={3000}>
                 <span onClick={()=>{redirect("servicio")}}>{navBarText(idioma).comercio}</span>
-                
+                </Fade>
 
+                <Fade  duration={3000}>
                 <span onClick={()=>{redirect("contacto")}}>{navBarText(idioma).contacto}</span>
-
+                </Fade>
                 {idioma==="en" ?
                     <Flags.US onClick={()=>{actionChangeLenguageMode()}} title="United States" className="flagsL"/>
                 :
                     <Flags.ES onClick={()=>{actionChangeLenguageMode()}} title="United States" className="flagsL"/>}
                 
+                <Fade right  duration={1500}>
                 <div className="navBox">
                     <svg onClick={()=>{setStateSide(!stateSide)}} fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="35px" height="35px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
                 </div>
+                </Fade>
             </div>
             
         </div>

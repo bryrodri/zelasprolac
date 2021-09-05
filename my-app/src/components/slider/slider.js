@@ -7,10 +7,14 @@ import {slider as SliderText} from '../../languageFunctions/slider'
 //estilos
 import './slider.css'
 
+import Fade from 'react-reveal/Fade';
+
+
 const Slider = ({idioma}) => {
     const [imgSelected, setImgSelected] = useState(1)
 
     return (
+        <Fade duration={3500}>
         <div className="slider-container" id="inicio">
 
             <div className="slider-img" style={{top:0, left:imgSelected===1?"0%":"-100%"}}>
@@ -56,6 +60,7 @@ const Slider = ({idioma}) => {
             </div>
             
         </div>
+        </Fade>
     )
 }
 

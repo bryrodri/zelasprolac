@@ -24,9 +24,11 @@
 
 .servicio-itemImg{
     width: 50%;
+    
 }
 .servicio-itemImg img{
     width: 100%;
+   
 }
 
 .servicio-itemText{
@@ -92,6 +94,7 @@
     }
     .servicio-itemImg{
         width: 30%;
+        
     }
     .servicio-item{
         display: flex;
