@@ -64,11 +64,14 @@ const Empresa = ({idioma}) => {
                             <h2 className="h2-Style">{empresaText(idioma).subTitle}</h2>
                         </div>
                         </Fade >
+
+                        <Fade duration={1500}>
                         <div className="empresa-subSecond">
                             <h3>•{empresaText(idioma).responsabilidad}</h3>
                             <p>{empresaText(idioma).responsabilidadText}</p>
                         </div>
-    
+                        </Fade>
+                        
                         <Fade duration={1500}>
                         <div className="empresa-subSecond">
                         <h3>•{empresaText(idioma).fiabilidad}</h3>
