@@ -30,3 +30,27 @@
     margin: 0;
     padding: 0%;
 }
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   
+    background-color: #ededed;
+  }
+      
+  body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #ededed;
+  }
+      
+  body::-webkit-scrollbar-thumb {
+ 
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #293591;
+  }
+
+
+  body{
+    scrollbar-width: thin;
+    scrollbar-color: #293591 #ededed;
+    scrollbar-arrow-color: #ededed;
+}
