@@ -35,7 +35,7 @@ const Empresa = ({idioma}) => {
                     <img src={process.env.PUBLIC_URL + '/img/empresa1.jpg'}></img>
                     </Fade >
                     <div className="empresa-ciText">
-                        <div className="empresa-sub">
+                        <div className="empresa-sub  separate-text">
                             <Fade duration={1500}>
                             <h3>{empresaText(idioma).mision}</h3>
                             <p>{empresaText(idioma).misionText}</p>

@@ -33,7 +33,7 @@
 
 .servicio-itemText{
     width: 100%;
-
+    text-align: justify;
 }
 
 .servicio-itemHeader{

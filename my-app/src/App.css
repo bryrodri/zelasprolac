@@ -9,7 +9,7 @@ p{
 }
 
 h3{
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .pageSection{
@@ -27,21 +27,21 @@ h3{
     }
     
     h3{
-        font-size: 21px;
+        font-size: 22px;
     }
 }
 
 @media (min-width:1024px){
     .h2-Style{
-        font-size: 28px;
+        font-size: 30px;
     }
 
     p{
-        font-size: 18px;
+        font-size: 20px;
     }
     
     h3{
-        font-size: 23px;
+        font-size: 26px;
     }
 }
 
@@ -51,11 +51,11 @@ h3{
     }
 
     p{
-        font-size: 20px;
+        font-size: 22px;
     }
     
     h3{
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 

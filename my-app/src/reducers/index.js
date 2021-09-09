@@ -3,11 +3,11 @@ const reducer = (state, action) => {
     switch (action.type) {
       case "SET_IDIOMA":
         console.log(state.idioma==="es" ? "en" : "es")
-        window.localStorage.setItem("idioma", JSON.stringify(state.idioma==="es" ? "en" : "es"));
+        window.localStorage.setItem("idioma", JSON.stringify(action.payload));
         
         return {
           ...state,
-            idioma: state.idioma==="es" ? "en" : "es"
+            idioma: action.payload
         };
 
      

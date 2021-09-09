@@ -65,6 +65,8 @@ const NavBar = ({idioma, actionChangeLenguageMode}) => {
 
             </div>
             
+
+            
             <div className="links-navBar">
                 
              
@@ -86,16 +88,39 @@ const NavBar = ({idioma, actionChangeLenguageMode}) => {
                 <Fade  duration={3000}>
                 <span onClick={()=>{redirect("contacto")}}>{navBarText(idioma).contacto}</span>
                 </Fade>
-                {idioma==="en" ?
+
+
+                
+                <div class="myselect">
+                <Fade  duration={3000}>
+                <select value={idioma} onChange={(e)=>{ actionChangeLenguageMode(e.target.value)}} class="form-control" id="test">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+                </Fade>
+                </div>
+             
+
+                {/* {idioma==="en" ?
                     <Flags.US onClick={()=>{actionChangeLenguageMode()}} title="United States" className="flagsL"/>
                 :
-                    <Flags.ES onClick={()=>{actionChangeLenguageMode()}} title="United States" className="flagsL"/>}
+                    <Flags.ES onClick={()=>{actionChangeLenguageMode()}} title="United States" className="flagsL"/>} */}
                 
+
+                {/* <Fade duration={1500}>
+                    <select value={idioma} onChange={(e)=>{ actionChangeLenguageMode(e.target.value)}} className="select-idioma">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
+                </Fade> */}
+
                 <Fade right  duration={1500}>
                 <div className="navBox">
                     <svg onClick={()=>{setStateSide(!stateSide)}} fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="35px" height="35px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
                 </div>
                 </Fade>
+
+
             </div>
             
         </div>

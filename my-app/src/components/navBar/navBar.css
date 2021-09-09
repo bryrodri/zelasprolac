@@ -1,7 +1,7 @@
 .navbar{
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 140px;
     background-color: #fff;
 
     display: flex;
@@ -15,7 +15,7 @@
 
 .logo--navbar{
     display: flex;
-    height: 98px;
+    height: 138px;
     
 
 }
@@ -37,6 +37,7 @@
     cursor: pointer;
     color: #293591;
     display: none;
+    font-size: 18px;
 }
 
 .navBox{
@@ -99,6 +100,7 @@
     box-sizing: border-box;
     color: #293591;
     padding: 0 5px;
+
     
 }
 
@@ -119,6 +121,59 @@
     margin-right: 18px;
     cursor: pointer;
 }
+
+.select-idioma{
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    
+    border: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 18px;
+    border: none;
+    outline:none;
+}
+
+
+
+.select-idiomal:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.myselect {
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+  }
+  .myselect select {
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    border:none;
+    padding-right: 10px;
+    outline: none;
+    color: #293591;
+
+
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+  }
+  .myselect::after {
+    content: '';
+    position: absolute;
+    right: 4px;
+    top: 11px;
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #293591;
+    pointer-events: none;
+  }
 
 
 @media (min-width:1024px){
