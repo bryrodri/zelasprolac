@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/zelasprolac/static/css/main.57f7af5c.chunk.css",
-    "main.js": "/zelasprolac/static/js/main.105231e4.chunk.js",
-    "main.js.map": "/zelasprolac/static/js/main.105231e4.chunk.js.map",
+    "main.css": "/zelasprolac/static/css/main.8358590f.chunk.css",
+    "main.js": "/zelasprolac/static/js/main.4b823f0a.chunk.js",
+    "main.js.map": "/zelasprolac/static/js/main.4b823f0a.chunk.js.map",
     "runtime-main.js": "/zelasprolac/static/js/runtime-main.51491feb.js",
     "runtime-main.js.map": "/zelasprolac/static/js/runtime-main.51491feb.js.map",
-    "static/js/2.751fb51d.chunk.js": "/zelasprolac/static/js/2.751fb51d.chunk.js",
-    "static/js/2.751fb51d.chunk.js.map": "/zelasprolac/static/js/2.751fb51d.chunk.js.map",
+    "static/js/2.cd9549c3.chunk.js": "/zelasprolac/static/js/2.cd9549c3.chunk.js",
+    "static/js/2.cd9549c3.chunk.js.map": "/zelasprolac/static/js/2.cd9549c3.chunk.js.map",
     "index.html": "/zelasprolac/index.html",
-    "static/css/main.57f7af5c.chunk.css.map": "/zelasprolac/static/css/main.57f7af5c.chunk.css.map",
-    "static/js/2.751fb51d.chunk.js.LICENSE.txt": "/zelasprolac/static/js/2.751fb51d.chunk.js.LICENSE.txt",
+    "static/css/main.8358590f.chunk.css.map": "/zelasprolac/static/css/main.8358590f.chunk.css.map",
+    "static/js/2.cd9549c3.chunk.js.LICENSE.txt": "/zelasprolac/static/js/2.cd9549c3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/zelasprolac/static/media/coolvetica.857acc35.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.51491feb.js",
-    "static/js/2.751fb51d.chunk.js",
-    "static/css/main.57f7af5c.chunk.css",
-    "static/js/main.105231e4.chunk.js"
+    "static/js/2.cd9549c3.chunk.js",
+    "static/css/main.8358590f.chunk.css",
+    "static/js/main.4b823f0a.chunk.js"
   ]
 }
