@@ -7,9 +7,9 @@ export const navbar={
         contacto:"Contacto"
     },
     EN:{
-        inicio:"Inicio",
-        empresa:"Empresa",
-        comercio:"Comercio & Servicios",
-        contacto:"Contacto"
+        inicio:"Home",
+        empresa:"Enterprise",
+        comercio:"Trade & Services",
+        contacto:"Contact"
     }
 }

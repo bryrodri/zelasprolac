@@ -7,9 +7,9 @@ export const contacto={
 
     },
     EN:{
-        contactanos:"CONTACTANOS",
-        visitanos:"VISITANOS",
-        llamanos:"LLAMANOS",
-        escribenos:"ESCRIBENOS",
+        contactanos:"CONTACT US",
+        visitanos:"VISIT US",
+        llamanos:"CALL US",
+        escribenos:"E-MAIL US",
     }
 }
