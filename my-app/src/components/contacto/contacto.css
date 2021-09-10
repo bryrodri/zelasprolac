@@ -6,15 +6,19 @@
     width: 100%;
     box-sizing: border-box;
     padding: 0 30px 30px 30px;
+
+    
 }
 
 .contacto-header{
     margin-bottom: 20px;
+    font-family: 'Aristotelica', 'Spectral', serif;
 }
 
 .contacto-titles{
     color: #293591;
     font-size: 20px;
+    font-family: 'Aristotelica', 'Spectral', serif;
 }
 
 .contacto-subContainer{
@@ -36,6 +40,8 @@
     color: #293591;
     font-weight: normal;
     font-size: 16px;
+
+    font-family: 'coolvetica', 'Spectral', serif;
 }
 
 .contactoItemHeader{

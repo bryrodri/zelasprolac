@@ -41,7 +41,7 @@ const Slider = ({idioma}) => {
                 <span>{SliderText(idioma).tercera}</span>
             </div>
 
-            <div className="sliderSelector">
+            <div className="sliderSelector" style={{fontFamily:"coolvetica"}}>
                 
                 <div className="sliderItem" onClick={()=>{setImgSelected(1)}}>
                     <span >1</span>

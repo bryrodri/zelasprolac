@@ -11,6 +11,7 @@
     align-items: center;
     position: fixed;
     z-index: 9;
+    font-family: 'Aristotelica', 'Spectral', serif;
 }
 
 .logo--navbar{
@@ -37,7 +38,7 @@
     cursor: pointer;
     color: #293591;
     display: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .navBox{
@@ -100,6 +101,8 @@
     box-sizing: border-box;
     color: #293591;
     padding: 0 5px;
+    font-size: 20px;
+    font-family: 'Aristotelica', 'Spectral', serif;
 
     
 }
@@ -130,7 +133,7 @@
     border: none;
     border-bottom: 1px solid #000;
     color: #000;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     outline:none;
 }
@@ -156,7 +159,7 @@
     padding-right: 10px;
     outline: none;
     color: #293591;
-
+    font-family: 'Aristotelica', 'Spectral', serif;
 
     -moz-appearance:none; /* Firefox */
     -webkit-appearance:none; /* Safari and Chrome */
