@@ -12,7 +12,7 @@ export const empresa={
         fiabilidad:"FIABILIDAD",
         fiabilidadText:"Nuestro equipo humano está compuesto por integrantes que acumulan conocimientos y experiencias que nos posicionan como una empresa líder en el área.",
         excelencia:"EXCELENCIA",
-        excelenciaText:"Nuestros servicios están en constantemente mejorando en pro de satisfacer toda las necesidades de nuestros clientes y cumplimiento de sus objetivos.",
+        excelenciaText:"Nuestros servicios están constantemente mejorando en pro de satisfacer toda las necesidades de nuestros clientes y cumplimiento de sus objetivos.",
         lealtad:"LEALTAD",
         lealtadText:"Asumimos los valores e intereses de nuestros clientes como propios, para así garantizar su satisfacción."
     },
@@ -27,7 +27,7 @@ export const empresa={
         responsabilidad:"RESPONSIBILITY",
         responsabilidadText:"We are committed to provide a quick and reliable response to the demands of our customers. ",
         fiabilidad:"RELIABILITY",
-        fiabilidadText:"Our team is composed of a number of members whom accumulate the proper knowledge and experience that position us as a leading company in these areas.",
+        fiabilidadText:"Our team is composed by a number of members whom accumulate the proper knowledge and experience that position us as a leading company in these areas.",
         excelencia:"EXCELLENCE",
         excelenciaText:"Our services are constantly improving in order to meet all the needs of our customers and fulfill their objectives.",
         lealtad:"LOYALTY",

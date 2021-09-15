@@ -48,6 +48,17 @@
     margin-bottom: 10px;
 }
 
+.icons-redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.icons-redes svg{
+   cursor: pointer;
+}
+
 
 @media (min-width:768px){
     .contacto-titles{
