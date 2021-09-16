@@ -49,7 +49,7 @@ const Servicios = ({idioma}) => {
 
                 <Fade right duration={1500}>
                     <div className="servicio-itemHeader responsiveHeader-Servicio">
-                        <h2 className="h2-Style">{servicioText(idioma).obras}</h2>
+                        <h2 className="h2-Style">{servicioText(idioma).exportacion}</h2>
                     </div>
                 </Fade>
                 <div className="servicio-itemImg">

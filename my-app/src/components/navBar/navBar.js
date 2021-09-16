@@ -91,9 +91,9 @@ const NavBar = ({idioma, actionChangeLenguageMode}) => {
 
 
                 
-                <div class="myselect">
+                <div className="myselect">
                 <Fade  duration={3000}>
-                <select value={idioma} onChange={(e)=>{ actionChangeLenguageMode(e.target.value)}} class="form-control" id="test">
+                <select value={idioma} onChange={(e)=>{ actionChangeLenguageMode(e.target.value)}} className="form-control" id="test">
                     <option value="es">Español</option>
                     <option value="en">English</option>
                 </select>

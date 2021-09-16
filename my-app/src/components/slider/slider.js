@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react'
+import React, { useState, useEffect, useRef} from 'react'
 import { connect } from "react-redux";
 
 //idioma
@@ -12,6 +12,30 @@ import Fade from 'react-reveal/Fade';
 
 const Slider = ({idioma}) => {
     const [imgSelected, setImgSelected] = useState(1)
+    const [sliderChange, setSliderChange] = useState(true)
+    const keepVerifyingRef = useRef(true);
+    useEffect(()=>{
+        sliderFunction()
+    },[])
+
+    let imgSelec=1
+    
+
+    const sliderFunction=()=>{
+ 
+            if(keepVerifyingRef.current){
+                setTimeout(()=>{
+                   
+                    if(keepVerifyingRef.current){
+                    imgSelec= imgSelec===3 ? 1 : imgSelec+1
+                    setImgSelected(imgSelec)
+                    sliderFunction()
+                    }
+    
+                      },6000)
+
+            }
+    }
 
     return (
         <Fade duration={3500}>
@@ -33,8 +57,8 @@ const Slider = ({idioma}) => {
                 <span>{SliderText(idioma).primera}</span>
             </div>
 
-            <div className="text-slider" style={{top:"10px", right:"4%", opacity:imgSelected===2?"1":"0", width:"23%", textAlign:"right"}}>
-                <span>{SliderText(idioma).segunda}</span>
+            <div className="text-slider" style={{top:"10px", right:"6%", opacity:imgSelected===2?"1":"0", width:"23%", textAlign:"right"}}>
+                <span style={{color:"#fff"}} >{SliderText(idioma).segunda}</span>
             </div>
 
             <div className="text-slider" style={{top:"10px", left:"4%", opacity:imgSelected===3?"1":"0", width:"28%"}}>
@@ -43,17 +67,17 @@ const Slider = ({idioma}) => {
 
             <div className="sliderSelector" style={{fontFamily:"coolvetica"}}>
                 
-                <div className="sliderItem" onClick={()=>{setImgSelected(1)}}>
+                <div className="sliderItem" onClick={()=>{setImgSelected(1); keepVerifyingRef.current = false;}}>
                     <span >1</span>
                     <div></div>
                 </div>
 
-                <div className="sliderItem" onClick={()=>{setImgSelected(2)}}>
+                <div className="sliderItem" onClick={()=>{setImgSelected(2); keepVerifyingRef.current = false;}}>
                     <span>2</span>
                     <div></div>
                 </div>
 
-                <div className="sliderItem" onClick={()=>{setImgSelected(3)}}>
+                <div className="sliderItem" onClick={()=>{setImgSelected(3); keepVerifyingRef.current = false;}}>
                     <span>3</span>
                     <div></div>
                 </div>

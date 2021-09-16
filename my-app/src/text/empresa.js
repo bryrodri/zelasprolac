@@ -10,7 +10,7 @@ export const empresa={
         responsabilidad:"RESPONSABILIDAD",
         responsabilidadText:"Nos comprometemos a dar respuesta rápida y confiable a las exigencias de nuestros clientes.",
         fiabilidad:"FIABILIDAD",
-        fiabilidadText:"Nuestro equipo humano está compuesto por integrantes que acumulan conocimientos y experiencias que nos posicionan como una empresa líder en el área.",
+        fiabilidadText:"Nuestro equipo humano está compuesto por integrantes que acumulan conocimientos y experiencias, que nos posicionan como una empresa líder en el área.",
         excelencia:"EXCELENCIA",
         excelenciaText:"Nuestros servicios están constantemente mejorando en pro de satisfacer toda las necesidades de nuestros clientes y cumplimiento de sus objetivos.",
         lealtad:"LEALTAD",
