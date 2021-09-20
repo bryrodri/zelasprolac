@@ -1,9 +1,9 @@
 export const contacto={
     ES:{
-        contactanos:"CONTACTANOS",
-        visitanos:"VISITANOS",
-        llamanos:"LLAMANOS",
-        escribenos:"ESCRIBENOS",
+        contactanos:"Contactanos",
+        visitanos:"Visítanos",
+        llamanos:"Llámanos",
+        escribenos:"Escríbenos",
 
     },
     EN:{

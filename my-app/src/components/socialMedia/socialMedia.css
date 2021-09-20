@@ -1,0 +1,29 @@
+.socialMedia-bar{
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 20vh;
+
+    top: 40vh;
+    left: 0%;
+    opacity: 0.2;
+    transition: all ease-in-out 0.5s;
+}
+
+.socialMedia-bar:hover{
+    opacity: 1;
+    
+}
+
+.socialMedia-bar svg{
+    transition: all ease-in-out 0.5s;
+}
+
+.socialMedia-bar svg:hover{
+    transform: scale(1.2);
+}
