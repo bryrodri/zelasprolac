@@ -11,6 +11,6 @@ export const servicio={
         obrasText:"In the Nautical Works domain, Zelasprolac coordinates port infrastructure projects, construction and reparation of docks, dredging operations, construction and rehabilitation of navigation channels and coastal-river protections.",
         obrasText2:"The company has made a commitment to the training of employees, management of international alliances and construction of a well specialized team, which allows the execution of large projects with high efficiency.",
         exportacion:"Food Exports: ",
-        exportacionText:"We offer export services of traditional food products from various regions of Europe destined to Asia. Guaranteeing exclusivity and quality in all our products to provide the greatest satisfaction to our customers."
+        exportacionText:"We offer worldwide export services of traditional food products from various regions of Europe. Guaranteeing exclusivity and quality in all our products to provide the greatest satisfaction to our customers."
     }
 }
